@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srijana - Resume PDF</title>
+    <style>
+        @media print {
+            .no-print {
+                display: none;
+            }
+            body {
+                margin: 0;
+                padding: 20px;
+            }
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background: #fff;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #2c3e50;
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .header p {
+            color: #555;
+            font-size: 1.1rem;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h2 {
+            color: #2c3e50;
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+        }
+
+        .section h3 {
+            color: #34495e;
+            font-size: 1.2rem;
+            margin-top: 15px;
+            margin-bottom: 8px;
+        }
+
+        .section p {
+            margin-bottom: 10px;
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #3498db;
+            color: #fff;
+            padding: 6px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .cert-item {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .cert-item:last-child {
+            border-bottom: none;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            gap: 10px;
+            margin-bottom: 10px;
+        }
+
+        .info-grid strong {
+            color: #2c3e50;
+        }
+
+        .download-btn {
+            background: #3498db;
+            color: #fff;
+            padding: 12px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin: 20px 0;
+        }
+
+        .download-btn:hover {
+            background: #2980b9;
+        }
+
+        .print-instructions {
+            background: #f8f9fa;
+            padding: 15px;
+            border-left: 4px solid #3498db;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="no-print">
+        <div class="print-instructions">
+            <strong>📄 To Download as PDF:</strong>
+            <p>Click the button below, then use Ctrl+P (Windows) or Cmd+P (Mac), and select "Save as PDF" as the printer.</p>
+        </div>
+        <button class="download-btn" onclick="window.print()">
+            📥 Download/Print Resume
+        </button>
+    </div>
+    <div class="header">
+        <h1>SRIJANA</h1>
+        <p>Aspiring Software Engineer | Computer Science Student</p>
+        <p>📧 srijana2006mayya@gmail.com | 📱 +91 6282076811 | 📍 Kasargod, Kerala, India</p>
+    </div>
+
+
+    <div class="section">
+        <h2>PERSONAL INFORMATION</h2>
+        <div class="info-grid">
+            <strong>Date of Birth:</strong>
+            <span>January 2, 2006</span>
+        </div>
+        <div class="info-grid">
+            <strong>Nationality:</strong>
+            <span>Indian</span>
+        </div>
+        <div class="info-grid">
+            <strong>Languages:</strong>
+            <span>Kannada, English, Malayalam, Tulu, Hindi</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>EDUCATION</h2>
+        <h3>Bachelor of Engineering - Computer Science and Engineering</h3>
+        <p><strong>Duration:</strong> 2023 – 2027</p>
+        <p>Pursuing B.E. in Computer Science and Engineering at AJ institute of engineering and technology, Mangalore.</p>
+    </div>
+
+    <div class="section">
+        <h2>TECHNICAL SKILLS</h2>
+        <div class="skills-container">
+            <span class="skill">C Programming</span>
+            <span class="skill">Java</span>
+            <span class="skill">Python</span>
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>
+
+        </div>
+    </div>
+
+<div class="section">
+    <h2>CERTIFICATIONS</h2>
+    <ul>
+        <li><strong>Database Management Systems (DBMS) - NPTEL :</strong>  
+            Comprehensive certification covering database design, SQL, and management systems.</li>
+        
+        <li><strong>Java Programming Certification - Infosys Springboard :</strong>  
+            Advanced Java programming concepts and object-oriented design principles.</li>
+        
+        <li><strong>HTML & CSS Certification - Udemy :</strong>  
+            Web development fundamentals and responsive design techniques.</li>
+        
+        <li><strong>Python Programming Certification - Infosys Springboard :</strong>  
+            Python fundamentals, data structures, and application development.</li>
+        
+        <li><strong>Frontend Web Development (Modern HTML, CSS & JavaScript) – Infosys Springboard :</strong>  
+            Built responsive and interactive web pages using modern front-end technologies.</li>
+        
+        <li><strong>Getting Started with AI – IBM Skills Network :</strong>  
+            Learned AI fundamentals, applications, and basics of machine learning and data-driven insights.</li>
+        
+        <li><strong>Azure Basics – Microsoft Learn :</strong>  
+            Covered foundational cloud concepts and Azure services.</li>
+        
+        <li><strong>AI Basics – Microsoft Learn :</strong>  
+            Learned core AI concepts including machine learning and neural networks.</li>
+        
+        <li><strong>Applied AI – Microsoft Learn :</strong>  
+            Explored real-world AI applications and implementation techniques.</li>
+    </ul>
+</div>
+
+
+
+    <div class="section">
+        <h2>WORKSHOPS</h2>
+        <h3>Power BI Workshop (3 Days)</h3>
+        <p>Intensive hands-on workshop on data visualization and business intelligence using Microsoft Power BI. Learned to create interactive dashboards and reports.</p>
+    </div>
+
+    <div class="section">
+        <h2>PROJECTS & PARTICIPATION</h2>
+        <h3>Potato Leaf Disease Detection Using Deep Learning</h3>
+        <p><strong>Technologies:</strong> Deep Learning, Python, Convolutional Neural Networks (CNN)</p>
+        <p>Developed a deep learning model to detect and classify diseases in potato leaves using VGG16 model(CNN). The system helps farmers identify plant diseases early for better crop management.</p>
+            </div>
+        
+        <h3>Smart India Hackathon (SIH)</h3>
+        <p><strong>Topic:</strong> KMRL Management (Kochi Metro Rail Limited)</p>
+        <p><strong>Status:</strong> Currently Participating</p>
+        <p>Actively participating in India's biggest hackathon organized by the Government of India. Working on developing innovative technological solutions for Kochi Metro Rail Limited (KMRL) management system to address real-world challenges in public transportation infrastructure and improve operational efficiency.</p>
+    </div>
+
+    <div class="section">
+        <h2>INTERESTS & HOBBIES</h2>
+        <p>• Singing - Passionate about music and vocal expression</p>
+        <p>• Mandala Art - Creating intricate geometric designs</p>
+        <p>• Mehendi Design - Traditional and contemporary henna art</p>
+        <p>• Ukulele Playing - Learning and creating musical melodies</p>
+    </div>
+
+    <div class="no-print">
+        <button class="download-btn" onclick="window.print()">
+            📥 Download/Print Resume
+        </button>
+    </div>
+</body>
+</html>
